@@ -59,7 +59,7 @@ The last thing to do is open the Unity project, which is `./HandShadowGame/EE267
 1. Vrduino port number - this is the same as the Unity starter project. The port name in `ReadUSB.cs` needs to be changed to whatever port runs VRduino in the Arduino program. 
 `const string portName = "/dev/cu.usbmodem2815121";`
 
-~~2. Images load path - We've hard coded the path to three textures (which is actually the 3,2,1 counting down after game starts) as absolute path. Please see line 21, 27, 33 and look for `string filePath_1 = "/Users/chenyue/Documents/EE267/project/number-solid-1.jpg";`. Please kindly change the path of `number-solid-1.jpg` and 2 and 3 as well. You could find them under `./`. This hotfix is actually optional if you only want to test the game scenes. If not fixed, those counting down images would be shown as question marks. ~~
+~~2. Images load path - We've hard coded the path to three textures (which is actually the 3,2,1 counting down after game starts) as absolute path. Please see line 21, 27, 33 and look for `string filePath_1 = "/Users/chenyue/Documents/EE267/project/number-solid-1.jpg";`. Please kindly change the path of `number-solid-1.jpg` and 2 and 3 as well. You could find them under `./`. This hotfix is actually optional if you only want to test the game scenes. If not fixed, those counting down images would be shown as question marks.~~
 
 Please start from `Assets/Handpainted Forest Environment Free Sample/scenes/start_scene.unity` by double-clicking the `start_scene` unity file. Then you could hit the play button at the very top to start rendering (it would be better to reset the vrduino again before start).
 
